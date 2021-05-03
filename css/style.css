@@ -1,0 +1,163 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img{
+   max-width: 100%; 
+   height: auto;
+}
+
+/* ------- */
+*{
+    box-sizing: border-box;
+	/* outline: solid 1px black; */
+}
+
+body{
+	display: flex;
+	justify-content: center;
+}
+
+.container{
+  width: 1024px;
+}
+
+.fb-and-twitter{
+	background-color: rgb(246,246,246);
+	display: flex;
+	justify-content: flex-end;
+}
+
+.logobox{
+	display: flex;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.fb{
+	color: rgb(68,96,160);
+}
+
+.twitter{
+	color: rgb(66,190,239);
+}
+
+.nav{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+
+.nav>ul{
+	display: flex;
+	margin: 0px 10px;
+}
+
+li{
+	margin: 20px 0px 0px 20px;
+	color: rgb(153,235,214);
+}
+
+li:hover{
+	border-bottom: solid 2px rgb(153,235,214) ;
+	transition: 0.1s;
+	cursor: pointer;
+}
+
+.banner>img{
+ width: 1024px;
+ position: relative;
+ margin-bottom: 50px;
+} 
+
+.banner>h1{
+	font-size: 50px;
+	color: #fff;
+	background-color: rbg(29,29,29);
+	margin: 45px 0px;
+	padding: 20px 10px;
+	letter-spacing: 3px;
+	line-height: 1.2;
+	position: absolute;
+	top:130px;
+}
+
+.content{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.course-item{
+	padding: 10px;
+	box-shadow: 0px 3px 3px #808080b5;
+	width: 32%;
+}
+
+.course-item:hover{
+	box-shadow: 3px 3px 3px #808080b5;
+	transform: scale(1.05);
+	transition: 0.6s;
+}
+
+.course-item>img{
+	padding: 0 33%;
+	height: 35%;
+}
+
+
+.course-item>h2{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px 0px;
+}
+
+.course-item>p{
+	line-height: 1.5;
+}
