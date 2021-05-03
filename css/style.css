@@ -162,6 +162,11 @@ body{
 	line-height: 1.5;
 }
 
+.course-item>ul>li{
+	margin: 10px 0px;
+	padding-left: 20px;
+}
+
 .wrap{
 	display: flex;
 	flex-direction: column;
@@ -244,6 +249,11 @@ input[type='submit']{
 	margin-left: auto;
 	border: none;
 	border-radius: 3px;
+	cursor: pointer;
+}
+
+input[type='submit']:hover{
+	box-shadow: 0px 0px 9px rgb(117, 224, 117);
 }
 
 footer{
