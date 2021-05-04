@@ -311,3 +311,63 @@ footer{
 		margin: 15px 5px 10px 5px;
 	}
 }
+
+@media(max-width:375px){
+	.nav>ul{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	
+	.nav>ul>li{
+		font-size: 30px;
+		width: 40%;
+		height: 50px;
+		text-align: center;
+	}
+
+	.banner>h1 {
+		font-size: 20px;
+		top: 263px;
+	}
+
+	.course-item {
+		width: 80%;
+	}
+
+	table {
+		width: 86%;
+	}
+		
+	th, td {
+		padding: 9px;
+		font-size: 14px;
+	}
+
+	textarea {
+		display: none;
+	}
+	input{
+		width: 333px;
+	}
+	
+	.footer-contact>li {
+		margin: 6px;
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 320px){
+	.banner>h1 {
+		font-size: 23px;
+		top: 252px;
+	}
+
+	input {
+		width: 281px;
+	}
+
+	.footer-contact>li {
+		font-size: 10px;
+	}
+}
