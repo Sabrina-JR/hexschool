@@ -58,13 +58,9 @@ img{
 	/* outline: solid 1px black; */
 }
 
-body{
-	display: flex;
-	justify-content: center;
-}
-
 .container{
-  width: 1024px;
+   max-width: 1024px;
+   margin: 0 auto;
 }
 
 .fb-and-twitter{
@@ -110,15 +106,14 @@ body{
 }
 
 .banner>img{
- width: 1024px;
- position: relative;
- margin-bottom: 50px;
+	max-width: 100%;
+	position: relative;
+	margin-bottom: 50px;
 } 
 
 .banner>h1{
 	font-size: 50px;
 	color: #fff;
-	background-color: rbg(29,29,29);
 	margin: 45px 0px;
 	padding: 20px 10px;
 	letter-spacing: 3px;
@@ -270,4 +265,49 @@ footer{
 .footer-contact>li>a{
 	text-decoration: none;
 	color: red;
+}
+
+@media(max-width:768px){
+	.nav{
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 5px;
+	}
+
+	.nav>img{
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.nav>ul{
+		display: flex;
+		justify-content: center;
+	}
+	
+	.nav>ul>li{
+		font-size: 30px;
+		height: 50px;
+		padding: 10px 0px;
+	}
+
+	.nav>ul>li:hover{
+		border-bottom: solid 2px rgb(153,235,214) ;
+		transition: 0.1s;
+		cursor: pointer;
+	}	
+	
+	.banner>h1 {
+		font-size: 30px;
+		top: 200px;
+	}
+
+	.content{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.course-item{
+		width: 47%;
+		margin: 15px 5px 10px 5px;
+	}
 }
