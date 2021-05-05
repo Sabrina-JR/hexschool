@@ -179,7 +179,7 @@ img{
 }
 
 table{
-	width: 100%;
+	width: 90%;
 }
 
 th{
@@ -289,6 +289,11 @@ footer{
 		padding: 13px;
 	}
 
+	.course-item>ul{
+		margin: 10px 0px;
+		padding-left: 20px;
+	}
+
 	.course-item>ul>li {
 		padding-left: 13px;
 		font-size: 15px;
@@ -353,9 +358,6 @@ footer{
 		font-size: 18px;
 	}
 
-	textarea {
-		display: none;
-	}
 	footer {
 		flex-direction: column;
 		padding: 35px 18px
