@@ -355,7 +355,8 @@ footer{
 	}
 
 	input[type='submit'] {
-		width: -webkit-fill-available;
+		width: fill-available;
+		padding: 12px;
 	}
 
 	.formbox-item {
@@ -378,7 +379,7 @@ footer{
 	}
 
 	footer>img {
-		max-width: 38%;
+		max-width: 50%;
 	}
 	footer>ul{
 		margin-top: 15px;
@@ -404,6 +405,5 @@ footer{
 	footer {
 		align-items: center;
 	}
-
 
 }
