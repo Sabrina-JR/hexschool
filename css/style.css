@@ -112,7 +112,7 @@ img{
 } 
 
 .banner>h1{
-	background-image: url('/images/banner.png');
+	background-image: url('https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
 	font-size: 50px;
@@ -287,10 +287,6 @@ footer{
 	
 	.course-item>p {
 		padding: 13px;
-	}
-
-	.course-item>ul{
-		display: flex;
 	}
 
 	.course-item>ul>li {
