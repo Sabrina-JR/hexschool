@@ -359,8 +359,14 @@ footer{
 		top: 20%;
 		font-size: 18px;
 	}
+	.course-item>img {
+		padding: 0px 37%;
+	}
 	textarea {
 		display: none;
+	}
+	footer>ul{
+		margin-left: 2em;
 	}
 }
 
@@ -370,8 +376,8 @@ footer{
 		align-items: center;
 	}
 	.banner>h1 {
-		top: 26%;
-		font-size: 18px;
+		top: 32%;
+		font-size: 14px;
 	}
 	.course-item>img {
 		padding: 0px 29%;
@@ -379,8 +385,8 @@ footer{
 	.course-item>ul {
 		display: inline-block;
 	}
-
 	footer>ul{
 		margin-left: 1em;
 	}
+
 }
